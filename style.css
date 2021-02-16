@@ -8,12 +8,12 @@ html{
   width: 100%;
   margin: 0;
   padding: 0;
-  background:#263238;
+  background:#BBC4C8;
     }
 
 body {
-  background: #263238;
-  color: #BBC4C8;
+  background: #ffcccc;
+  color: #ffcccc;
   height: 100%;
   width: 100%;
   margin: 0;
@@ -49,11 +49,11 @@ body {
   flex-direction: column;
   border: #191C1E;
   border-radius: 3px;
-  box-shadow: 0px 4px 5px #171D20;
+  box-shadow: 0px 3px 3px #171D20;
   align-items: center;
   padding-top: 20px;
   padding-bottom: 20px;
-  background: #222D32;
+  background: #ffe6e6;
 }
 
 .logo {
@@ -69,13 +69,13 @@ body {
 
 
 .input_box {
-  border: none;
+  border: #ff6666;
   outline: none;
   background: none;
   padding-right: 15px;
   padding-left: 15px;
   width: 422px;
-  color: whitesmoke;
+  color: #1a0000;
   font-size: 22px;
   border-radius: 0px 0px 0px 0px;
   height: 70px;
@@ -110,12 +110,13 @@ form {
 
 .search_box {
   display: flex;
-  background: #222D32;
+  background: #ffe6e6;
   width: 600px;
   padding: 0px;
   margin-bottom: 40px;
+  border-color: #ff6666
   border-radius: 3px 3px 3px 3px;
-  box-shadow: 0px 4px 5px #171D20;
+  box-shadow: 0px 3px 3px #171D20;
   align-self: center;
   height: 70px;
 }
@@ -138,11 +139,11 @@ li {
 
 a:link {
   text-decoration: none;
-  color: #8F9191;
+  color: #1a0000;
 }
 
 a:visited {
-  color: #8F9191;
+  color: #1a0000;
 }
 
 a:hover {
